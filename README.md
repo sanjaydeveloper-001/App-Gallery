@@ -1,4 +1,4 @@
-# [30 Apps Challenge - Gallery App](https://30appsgallery.vercel.app/)
+# 30 Apps Challenge - Gallery App
 
 Welcome to the **30 Apps Challenge Gallery**! This is a curated showcase of 30 mini-projects/apps built in **React.js** and **Tailwind CSS**, highlighting modern frontend skills, interactive UI components, and practical web development concepts.
 
@@ -6,7 +6,7 @@ Welcome to the **30 Apps Challenge Gallery**! This is a curated showcase of 30 m
 
 ## 🌟 Live Demo
 
-Check out the live gallery here: [Your Live Site Link](#)
+Check out the live gallery here: [Gallery]https://30appsgallery.vercel.app/
 
 ---
 
@@ -64,8 +64,6 @@ Check out the live gallery here: [Your Live Site Link](#)
    ```bash
    npm start
    ```
-4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 ---
 
 ## 📌 Usage
@@ -98,6 +96,6 @@ This project is licensed under the MIT License.
 ## ❤️ Footer / Credits
 
 Made with 💖 by **Sanjay Machan**
-Follow me on: [LinkedIn](#) | [GitHub](#) | [Instagram](#)
+Follow me on: [LinkedIn](https://linkedin.com/in/josanweb/) | [GitHub](https://github.com/sanjaydeveloper-001/) | [LeetCode](https://leetcode.com/u/Sanjay_dev_001/)
 
 All rights reserved © 2025
