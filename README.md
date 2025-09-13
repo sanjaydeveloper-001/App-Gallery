@@ -6,7 +6,7 @@ Welcome to the **30 Apps Challenge Gallery**! This is a curated showcase of 30 m
 
 ## 🌟 Live Demo
 
-Check out the live gallery here: [Gallery]https://30appsgallery.vercel.app/
+Check out the live gallery here: [Gallery](https://30appsgallery.vercel.app/)
 
 ---
 
@@ -47,6 +47,15 @@ Check out the live gallery here: [Gallery]https://30appsgallery.vercel.app/
 
 ---
 
+## 📌 Usage
+
+* Use the search bar to find apps by name.
+* Filter apps by category if available.
+* Click on an app card to open the modal and see details.
+* Explore the live projects to test each mini-app.
+
+---
+
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
@@ -66,24 +75,10 @@ Check out the live gallery here: [Gallery]https://30appsgallery.vercel.app/
    ```
 ---
 
-## 📌 Usage
-
-* Use the search bar to find apps by name.
-* Filter apps by category if available.
-* Click on an app card to open the modal and see details.
-* Explore the live projects to test each mini-app.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you want to add more apps or improve the gallery:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m "Add some feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
+Contact me.
 
 ---
 
@@ -95,7 +90,7 @@ This project is licensed under the MIT License.
 
 ## ❤️ Footer / Credits
 
-Made with 💖 by **Sanjay Machan**
+Made with 💖 by **Sanjay**
 Follow me on: [LinkedIn](https://linkedin.com/in/josanweb/) | [GitHub](https://github.com/sanjaydeveloper-001/) | [LeetCode](https://leetcode.com/u/Sanjay_dev_001/)
 
 All rights reserved © 2025
