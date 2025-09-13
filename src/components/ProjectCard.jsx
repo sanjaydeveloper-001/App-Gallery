@@ -5,18 +5,18 @@ export default function ProjectCard({ project, setSelected }) {
     <motion.article
       layout="position"
       onClick={() => setSelected(project)}
-      whileHover={{ translateY: -6, boxShadow: "0 8px 30px rgba(2,6,23,0.08)" }}
+      whileHover={{ translateY: -6 }}
       whileTap={{ scale: 0.98 }}
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
       className="cursor-pointer bg-gray-50 rounded-lg border border-blue-200 p-3 sm:p-4 
-                 w-full sm:w-[320px] md:w-[360px] max-w-full"
+                 w-full sm:w-[320px] md:w-[360px] max-w-full shadow-sm shadow-gray-300 hover:shadow-gray-200"
     >
       {/* Thumbnail */}
-      <div className="mb-3 rounded-md h-40">
+      <div className="mb-3 h-40">
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover border border-slate-200 shadow-inset-lg"
+          className="w-full h-full rounded-md object-cover border border-slate-200 shadow-md shadow-gray-300"
         />
       </div>
 

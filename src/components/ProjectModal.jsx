@@ -28,7 +28,7 @@ export default function ProjectModal({ selected, setSelected }) {
               <img
                 src={selected.image}
                 alt={selected.title}
-                className="rounded-lg border border-slate-200 object-cover w-full h-48 sm:h-64 md:h-full"
+                className="rounded-lg border border-slate-200 object-cover w-full h-48 sm:h-64 md:h-full shadow-md shadow-gray-400"
               />
             </div>
 
