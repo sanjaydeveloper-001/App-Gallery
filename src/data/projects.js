@@ -25,6 +25,7 @@ import WeatherAppImg from "../assets/WeatherApp.jpg";
 import QrGenImg from "../assets/QR_gen.jpg";
 import UnitConverterImg from "../assets/UnitConvertor.jpg";
 import QuickNotesImg from "../assets/QuickNotes.jpg";
+import VoiceDesk from "../assets/VoiceDesk.png";
 
 export const Links = {
   GitHub : "https://github.com/sanjaydeveloper-001/",
@@ -277,6 +278,15 @@ const projects = [
     tags: ["React", "Tailwind", "Summarize"],
     image: QuickNotesImg,
   },
+  {
+    id:28,
+    title: "Voice Desk",
+    short: "You can change ur Text into Voice & Voice into Text.",
+    preview: "https://voicedesk.netlify.app/",
+    repoName: "voiceDesk",
+    tags: ["React", "Tailwind", "Voice"],
+    image: VoiceDesk,
+  }
 ];
 
 export default projects;
