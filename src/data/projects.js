@@ -26,6 +26,7 @@ import QrGenImg from "../assets/QR_gen.jpg";
 import UnitConverterImg from "../assets/UnitConvertor.jpg";
 import QuickNotesImg from "../assets/QuickNotes.jpg";
 import VoiceDesk from "../assets/VoiceDesk.png";
+import HabitHarizon from "../assets/HabitHarizon.png";
 
 export const Links = {
   GitHub : "https://github.com/sanjaydeveloper-001/",
@@ -286,6 +287,15 @@ const projects = [
     repoName: "voiceDesk",
     tags: ["React", "Tailwind", "Voice"],
     image: VoiceDesk,
+  },
+  {
+    id:29,
+    tite: "Habit Harizon",
+    short: "You can track ur Habits & also get a badges related to ur streak maintaining the tasks.",
+    preview: "https://habitharizon.netlify.app/",
+    repoName: "HabitHarizon",
+    tags: ["React", "Tailwind", "Habits"],
+    image: HabitHarizon,
   }
 ];
 
