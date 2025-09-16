@@ -290,7 +290,7 @@ const projects = [
   },
   {
     id:29,
-    tite: "Habit Harizon",
+    title: "Habit Harizon",
     short: "You can track ur Habits & also get a badges related to ur streak maintaining the tasks.",
     preview: "https://habitharizon.netlify.app/",
     repoName: "HabitHarizon",
