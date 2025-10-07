@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Links } from "../data/projects";
+import { Links } from "../data/projects.jsx";
 
 export default function ProjectModal({ selected, setSelected }) {
   if (!selected) return null;
@@ -58,7 +58,7 @@ export default function ProjectModal({ selected, setSelected }) {
                 {
                 selected.title != "MongoDB CRUD API" ? 
                 <a
-                  href={selected.preview}
+                  href={ selected.id == 30 ? '' : `https://${selected.preview}${Links.HostingWeb}`}
                   target="_blank"
                   rel="noreferrer"
                   className="w-full sm:w-auto text-center px-4 py-2 border rounded-md border-slate-300 hover:bg-gray-100"
@@ -68,7 +68,7 @@ export default function ProjectModal({ selected, setSelected }) {
                 ''
                 }
                 <a
-                  href={`${Links.GitRepo}${selected.repoName}`}
+                  href={`${Links.GitHub}${Links.GitRepo}${selected.id == 30 ? '' : selected.repoName}`}
                   target="_blank"
                   rel="noreferrer"
                   className="w-full sm:w-auto text-center px-4 py-2 border rounded-md border-slate-300 hover:bg-gray-100"

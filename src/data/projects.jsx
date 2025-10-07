@@ -27,20 +27,54 @@ import UnitConverterImg from "../assets/UnitConvertor.jpg";
 import QuickNotesImg from "../assets/QuickNotes.jpg";
 import VoiceDesk from "../assets/VoiceDesk.png";
 import HabitHarizon from "../assets/HabitHarizon.png";
+import AppsGallery from "../assets/30AppsGallery.png";
+
+
+// Links 
 
 export const Links = {
   GitHub : "https://github.com/sanjaydeveloper-001/",
   LinkedIn: "https://linkedin.com/in/josanweb/",
   LeetCode: "https://leetcode.com/u/Sanjay_dev_001/",
-  GitRepo: "https://github.com/sanjaydeveloper-001/Vanilla-to-Vision-30-Apps/tree/main/"
+  GitRepo: "Vanilla-to-Vision-30-Apps/tree/main/",
+  HostingWeb : ".netlify.app/"
 }
+
+// USER 
+
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import ProfileImage from "../assets/Profile.jpg";
+
+export const User = {
+  profile: ProfileImage,
+  name: "SANJAY D",
+  dept: "MERN Developer • B.Tech IT",
+  desc: "Passionate about building interactive web apps, currently completed <strong>30 Apps in 30 Days</strong>.",
+  soLinks: [
+    {
+      icon: <FaGithub size={22} className="text-gray-800 hover:text-black transition" />,
+      link: Links.GitHub,
+    },
+    {
+      icon: <FaLinkedin size={22} className="text-blue-600 hover:text-blue-800 transition" />,
+      link: Links.LinkedIn,
+    },
+    {
+      icon: <SiLeetcode size={24} className="text-orange-500 hover:text-orange-600 transition" />,
+      link: Links.LeetCode,
+    },
+  ],
+};
+
+// Projects 
 
 const projects = [
   {
     id: 1,
     title: "Time Delay",
     short: "App to display text with timed delays for fun animations.",
-    preview: "https://timedelaytext.netlify.app/",
+    preview: "timedelaytext",
     repoName: "TimeDelay",
     tags: ["React", "Tailwind"],
     image: TimeDelayImg,
@@ -49,7 +83,7 @@ const projects = [
     id: 2,
     title: "Mail Mood",
     short: "Send emails with style and mood-based templates.",
-    preview: "https://moodmailing.netlify.app/",
+    preview: "moodmailing",
     repoName: "Mail_Mood",
     tags: ["React", "Tailwind"],
     image: MailMoodImg,
@@ -58,7 +92,7 @@ const projects = [
     id: 3,
     title: "Chart My Day",
     short: "Track and visualize your daily activities with charts.",
-    preview: "https://chartmyday.netlify.app/",
+    preview: "chartmyday",
     repoName: "TimeTrakerChart",
     tags: ["React", "Tailwind", "Chart"],
     image: ChartMyDayImg,
@@ -67,7 +101,7 @@ const projects = [
     id: 4,
     title: "Note Nest",
     short: "Simple and organized note-taking app for productivity.",
-    preview: "https://nodenest2.netlify.app/",
+    preview: "nodenest2",
     repoName: "NoteNest",
     tags: ["React", "Tailwind"],
     image: NoteNestImg,
@@ -76,7 +110,7 @@ const projects = [
     id: 5,
     title: "GIF Quest",
     short: "Search and explore GIFs instantly with API integration.",
-    preview: "https://gifquest.netlify.app/",
+    preview: "gifquest",
     repoName: "GiffyApp",
     tags: ["React", "Tailwind", "API"],
     image: GiffyImg,
@@ -85,7 +119,7 @@ const projects = [
     id: 6,
     title: "Tic Tac Tai",
     short: "Classic Tic Tac Toe with AI-powered gameplay.",
-    preview: "https://tictactai.netlify.app/",
+    preview: "tictactai",
     repoName: "TicTacTai",
     tags: ["React", "Tailwind", "API", "AI"],
     image: TicTacTaiImg,
@@ -94,7 +128,7 @@ const projects = [
     id: 7,
     title: "CRUD API",
     short: "Practice CRUD operations with a quotes API.",
-    preview: "https://crudapimodel.netlify.app/",
+    preview: "crudapimodel",
     repoName: "Quotes",
     tags: ["React", "Tailwind", "API"],
     image: CrudApiImg,
@@ -112,7 +146,7 @@ const projects = [
     id: 9,
     title: "Cinema Ticket",
     short: "Book and manage movie tickets easily.",
-    preview: "https://getmovieticket.netlify.app/",
+    preview: "getmovieticket",
     repoName: "MovieSeatBooking",
     tags: ["React", "Tailwind"],
     image: CinemaImg,
@@ -121,7 +155,7 @@ const projects = [
     id: 10,
     title: "Expense Tracker",
     short: "Track and manage your daily expenses with charts.",
-    preview: "https://expencetracking.netlify.app/",
+    preview: "expencetracking",
     repoName: "ExpenceTracker",
     tags: ["React", "Tailwind"],
     image: ExpenseTrackerImg,
@@ -130,7 +164,7 @@ const projects = [
     id: 11,
     title: "DOM Array Method",
     short: "Play with arrays and wealth calculation features.",
-    preview: "https://domarraymethod.netlify.app/",
+    preview: "domarraymethod",
     repoName: "Wealthy-Calcy",
     tags: ["React", "Tailwind", "API"],
     image: DomArrayImg,
@@ -139,7 +173,7 @@ const projects = [
     id: 12,
     title: "Typing Speed Test",
     short: "Test and improve typing speed with real-time results.",
-    preview: "https://typestest.netlify.app/",
+    preview: "typestest",
     repoName: "Speed-Typer",
     tags: ["React", "Tailwind", "Database"],
     image: TypeSpeedImg,
@@ -148,7 +182,7 @@ const projects = [
     id: 13,
     title: "Img Blur App",
     short: "Apply stylish blur effects to your images.",
-    preview: "https://imgblur.netlify.app/",
+    preview: "imgblur",
     repoName: "BlurImage",
     tags: ["React", "Tailwind", "Styling"],
     image: ImgBlurImg,
@@ -157,7 +191,7 @@ const projects = [
     id: 14,
     title: "AI Website Generator",
     short: "Generate websites instantly using AI.",
-    preview: "https://aiwebsitefree.netlify.app/",
+    preview: "aiwebsitefree",
     repoName: "AI_Website_creater",
     tags: ["React", "Tailwind", "API", "AI"],
     image: AiWebsiteImg,
@@ -166,7 +200,7 @@ const projects = [
     id: 15,
     title: "AI Color Palette",
     short: "Create unique color palettes with AI assistance.",
-    preview: "https://aicolorgenerator.netlify.app/",
+    preview: "aicolorgenerator",
     repoName: "AI_Color_pattles",
     tags: ["React", "Tailwind", "API", "AI"],
     image: AiColorImg,
@@ -175,7 +209,7 @@ const projects = [
     id: 16,
     title: "Exchange Rate",
     short: "Check and convert currency exchange rates in real-time.",
-    preview: "https://moneyexchangefree.netlify.app/",
+    preview: "moneyexchangefree",
     repoName: "ExchangeRate",
     tags: ["React", "Tailwind", "API"],
     image: ExchangeRateImg,
@@ -184,7 +218,7 @@ const projects = [
     id: 17,
     title: "AI Tattoo Studio",
     short: "Generate tattoo designs powered by AI.",
-    preview: "https://aitattoo.netlify.app/",
+    preview: "aitattoo",
     repoName: "AI_Tatoo_Generater",
     tags: ["React", "Tailwind", "API", "AI"],
     image: AiTattooImg,
@@ -193,7 +227,7 @@ const projects = [
     id: 18,
     title: "AI Sitemap Builder",
     short: "Create website sitemaps quickly using AI tools.",
-    preview: "https://aisitemap.netlify.app/",
+    preview: "aisitemap",
     repoName: "AI_Site_Generator",
     tags: ["React", "Tailwind", "API", "AI"],
     image: AiSitemapImg,
@@ -202,7 +236,7 @@ const projects = [
     id: 19,
     title: "BMI Calculator",
     short: "Easily calculate BMI with instant results.",
-    preview: "https://bmicheckcalcy.netlify.app/",
+    preview: "bmicheckcalcy",
     repoName: "BMICalculator",
     tags: ["React", "Tailwind"],
     image: BmiImg,
@@ -211,7 +245,7 @@ const projects = [
     id: 20,
     title: "Img & PDF Compressor",
     short: "Compress images and PDFs for optimized size.",
-    preview: "https://imgpdf-com.netlify.app/",
+    preview: "imgpdf-com",
     repoName: "Img-Pdf-Compressoser",
     tags: ["React", "Tailwind", "jpdf"],
     image: ImgPdfCompressImg,
@@ -220,7 +254,7 @@ const projects = [
     id: 21,
     title: "Img to PDF Converter",
     short: "Convert images to PDF in one click.",
-    preview: "https://img2pdf-converter.netlify.app/",
+    preview: "img2pdf-converter",
     repoName: "Img-Pdf-Converter",
     tags: ["React", "Tailwind", "jpdf"],
     image: ImgPdfConvertImg,
@@ -229,7 +263,7 @@ const projects = [
     id: 22,
     title: "Emoji Translator",
     short: "Translate text into fun emojis.",
-    preview: "https://emoji-translate.netlify.app/",
+    preview: "emoji-translate",
     repoName: "EmojiTranslator",
     tags: ["React", "Tailwind", "react-emoji"],
     image: EmojiTranslatorImg,
@@ -238,7 +272,7 @@ const projects = [
     id: 23,
     title: "Password Generator",
     short: "Generate strong and secure passwords instantly.",
-    preview: "https://passwordgenvalut.netlify.app/",
+    preview: "passwordgenvalut",
     repoName: "PasswordGenerator",
     tags: ["React", "Tailwind"],
     image: PasswordGenImg,
@@ -247,7 +281,7 @@ const projects = [
     id: 24,
     title: "Weather App",
     short: "Get live weather updates for any city.",
-    preview: "https://cityweathr.netlify.app/",
+    preview: "cityweathr",
     repoName: "WhetherApp",
     tags: ["React", "Tailwind", "API"],
     image: WeatherAppImg,
@@ -256,7 +290,7 @@ const projects = [
     id: 25,
     title: "QR Generator",
     short: "Generate QR codes for any text or link.",
-    preview: "https://qrgenwebs.netlify.app/",
+    preview: "qrgenwebs",
     repoName: "QR_Code_Generator",
     tags: ["React", "Tailwind", "QrCode"],
     image: QrGenImg,
@@ -265,7 +299,7 @@ const projects = [
     id: 26,
     title: "Unit Converter",
     short: "Convert units like weight, length, and more easily.",
-    preview: "https://unitcalcy.netlify.app/",
+    preview: "unitcalcy",
     repoName: "UnitCalculater",
     tags: ["React", "Tailwind", "Maths"],
     image: UnitConverterImg,
@@ -274,7 +308,7 @@ const projects = [
     id: 27,
     title: "Quick Notes",
     short: "Take and save quick notes with summaries.",
-    preview: "https://quicksummirize.netlify.app/",
+    preview: "quicksummirize",
     repoName: "QuickNotes",
     tags: ["React", "Tailwind", "Summarize"],
     image: QuickNotesImg,
@@ -283,7 +317,7 @@ const projects = [
     id:28,
     title: "Voice Desk",
     short: "You can change ur Text into Voice & Voice into Text.",
-    preview: "https://voicedesk.netlify.app/",
+    preview: "voicedesk",
     repoName: "voiceDesk",
     tags: ["React", "Tailwind", "Voice"],
     image: VoiceDesk,
@@ -292,10 +326,19 @@ const projects = [
     id:29,
     title: "Habit Harizon",
     short: "You can track ur Habits & also get a badges related to ur streak maintaining the tasks.",
-    preview: "https://habitharizon.netlify.app/",
+    preview: "habitharizon",
     repoName: "HabitHarizon",
     tags: ["React", "Tailwind", "Habits"],
     image: HabitHarizon,
+  },
+  {
+    id:30,
+    title: "30 Apps Gallery",
+    short: "You can see the 30 apps as a gallery in single page.",
+    preview: "30appsgallery",
+    repoName: "Vanilla-to-Vision-30-Apps",
+    tags: ["React", "Tailwind", "Collections"],
+    image: AppsGallery,
   }
 ];
 

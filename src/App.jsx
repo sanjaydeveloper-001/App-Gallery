@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import projects from "./data/projects";
+import projects from "./data/projects.jsx";
 import ProjectCard from "./components/ProjectCard";
 import ProjectModal from "./components/ProjectModal";
 import Footer from "./components/Footer";

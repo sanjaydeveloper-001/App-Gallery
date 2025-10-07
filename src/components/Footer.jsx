@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import { Links } from "../data/projects";
+import { Links } from "../data/projects.jsx";
 
 export default function Footer({filtered, setShowProfile}) {
   return (

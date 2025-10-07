@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import ProfileImage from '../assets/Profile.jpg';
-import { Links } from "../data/projects";
+import { User } from "../data/projects.jsx";
 
 export default function Profile({ showProfile, setShowProfile }) {
   if (!showProfile) return null;
@@ -26,45 +23,33 @@ export default function Profile({ showProfile, setShowProfile }) {
         {/* Header Section */}
         <div className="p-6 flex flex-col items-center text-center">
           <img
-            src={ProfileImage}
+            src={User.profile}
             alt="Profile"
             className="w-40 h-40 rounded-full border-6 border-blue-300 object-cover"
           />
           <h2 className="mt-4 text-3xl font-bold text-slate-800">
-            SANJAY D
+            {User.name}
           </h2>
-          <p className="text-slate-600 mt-1">MERN Developer • B.Tech IT</p>
+          <p className="text-slate-600 mt-1">{User.dept}</p>
           <p className="text-slate-500 mt-2 max-w-md">
-            Passionate about building interactive web apps, currently completed <strong>30 Apps in 30 Days</strong>.
+            {User.desc}
           </p>
         </div>
 
         {/* Links */}
         <div className="flex justify-center gap-4 mt-2 pb-6">
-          <a
-            href={Links.GitHub}
-            target="_blank"
-            rel="noreferrer"
-            className="p-3 rounded-full border border-blue-100 hover:bg-gray-100"
-          >
-            <FaGithub size={20} />
-          </a>
-          <a
-            href={Links.LinkedIn}
-            target="_blank"
-            rel="noreferrer"
-            className="p-3 rounded-full border border-blue-100 hover:bg-gray-100"
-          >
-            <FaLinkedin size={20} className="text-blue-600" />
-          </a>
-          <a
-            href={Links.LeetCode}
-            target="_blank"
-            rel="noreferrer"
-            className="p-3 rounded-full border border-blue-100 hover:bg-gray-100"
-          >
-            <SiLeetcode size={22} className="text-orange-500" />
-          </a>
+          {
+            User.soLinks.map((li , i) => (
+              <a
+                href={li.link}
+                target="_blank"
+                rel="noreferrer"
+                className="p-3 rounded-full border border-blue-100 hover:bg-gray-100"
+              >
+                {li.icon}
+              </a>
+            ))
+          }
         </div>
 
         {/* Close Button */}
